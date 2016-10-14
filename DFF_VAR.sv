@@ -12,6 +12,15 @@ module DFF_VAR #(parameter WIDTH=64) (en,q, clk, reset, data );
  logic [63:0]reData;
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  genvar i;
  
  generate
