@@ -1,0 +1,55 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+do runlab1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFF_VAR
+# -- Compiling module DFF_VAR_testbench
+# 
+# Top level modules:
+# 	DFF_VAR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DFF_VAR_testbench 
+# Loading sv_std.std
+# Loading work.DFF_VAR_testbench
+# Loading work.DFF_VAR
+# Loading work.D_FF
+# ** Error: Cannot open macro file: DFF_VAR_wave.do
+# Error in macro ./runlab1.do line 18
+# Cannot open macro file: DFF_VAR_wave.do
+#     while executing
+# "do DFF_VAR_wave.do"
+add wave -position end  sim:/DFF_VAR_testbench/d
+add wave -position end  sim:/DFF_VAR_testbench/q
+add wave -position end  sim:/DFF_VAR_testbench/reset
+add wave -position end  sim:/DFF_VAR_testbench/clk
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Hoc/Engineer/EE 469/Lab 1/Lab1_files/DFF_VAR_wave.do}
+do runlab1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFF_VAR
+# -- Compiling module DFF_VAR_testbench
+# 
+# Top level modules:
+# 	DFF_VAR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DFF_VAR_testbench 
+# Loading sv_std.std
+# Loading work.DFF_VAR_testbench
+# Loading work.DFF_VAR
+# Loading work.D_FF
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DFF_VAR_testbench at ./DFF_VAR.sv line 58
+# Simulation Breakpoint: Break in Module DFF_VAR_testbench at ./DFF_VAR.sv line 58
+# MACRO ./runlab1.do PAUSED at line 26

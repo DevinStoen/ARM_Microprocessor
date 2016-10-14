@@ -1,0 +1,1 @@
+Warning (10030): Net "d" at regfile.sv(13) has no driver or initial value, using a default initial value '0' File: U:/469/Lab1_files/regfile.sv Line: 13
